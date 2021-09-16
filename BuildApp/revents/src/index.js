@@ -13,7 +13,6 @@ function render (){
 if(module.hot){
   module.hot.accept('./app/layout/App.jsx', function(){
     setTimeout(render); 
-    setTimeout(render);
   })
 }
 
